@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.31" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/button.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/button_click.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/button_color.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/button_color2.xml" value="0.367" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/button_color3.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/button_color4.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/button_color5.xml" value="0.367" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/cody_1.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/heartbutton.xml" value="0.2165" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/ic_account_circle_black_24dp.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/ic_add_black_24dp.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/ic_group_black_24dp.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.259" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring1.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_10.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_11.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_12.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_13.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_14.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_15.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_16.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_2.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_3.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_4.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_5.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_6.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_7.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_8.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/drawable/spring_9.xml" value="0.1235" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/font/app_font.xml" value="0.3963541666666667" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/a_viewholder.xml" value="0.2959965928449744" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_camera.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_gallery.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_mainpage.xml" value="0.264" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_member_info_init.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_member_init.xml" value="0.264" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_my_closet.xml" value="0.33" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_password_reset.xml" value="0.16" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_post.xml" value="0.2" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_sign_login.xml" value="0.33152173913043476" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_start.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_user_info.xml" value="0.176" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_user_init.xml" value="0.264" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_userlist.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_vote.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_voteresult.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_write_cap.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/activity_write_post.xml" value="0.264" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/b_viewholder.xml" value="0.25" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/c_viewholder.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/frag1.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/frag2.xml" value="0.1890625" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/frag3.xml" value="0.1" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/fragment_camera2_basic.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/fragment_cap.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/fragment_cody.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/fragment_etc.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/fragment_map.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/fragment_pants.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/fragment_shoes.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/fragment_user_info.xml" value="0.33" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/fragment_user_list.xml" value="0.1" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/fragment_weekcody.xml" value="0.151791988756149" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/frgment_top.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/item_cody_post.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/item_gallery.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/item_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/item_my_closet.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/item_post.xml" value="0.264" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/item_user_list.xml" value="0.264" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/start.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/view_contents_edit_text.xml" value="0.1" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/view_contents_image.xml" value="0.1" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/view_contents_player.xml" value="0.1" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/view_contents_text.xml" value="0.1" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/view_loader.xml" value="0.1" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/view_post.xml" value="0.4" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/view_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/layout/view_usedmarket.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/menu/bottom_navigation.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/menu/post.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.259" />
+        <entry key="..\:/Users/wjdtp/AndroidStudioProjects/closet_project/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.196" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
