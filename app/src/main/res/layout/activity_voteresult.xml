@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".voteresult">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tvTop"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_span="3"
+            android:background="@drawable/monthly_cody_text_color"
+            android:text="실시간 순위"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/first_cody"
+            android:layout_width="match_parent"
+            android:layout_gravity="left"
+            android:layout_span="3"
+            android:text="1등!!"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FFBB86FC"
+            android:textSize="25dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/ivTop"
+            android:layout_width="match_parent"
+            android:layout_height="421dp"
+            android:layout_margin="10dp"
+            android:layout_span="3"
+            android:src="@drawable/picture1" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:width = "170dp"
+            android:height="30dp"
+            android:layout_gravity="center_vertical"
+            android:text="1등"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="득표 수 : "
+            android:height="30dp"
+            android:width="120dp"
+            android:textColor="@color/black"
+
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/vote1"
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:width="120dp"
+            android:textColor="@color/black"
+            android:text="0"
+            android:textSize="15dp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:text="2등"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:text="득표 수 : "
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/vote2"
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:textColor="@color/black"
+            android:text="0"
+            android:textSize="15dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:text="3등"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:text="득표 수 : "
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/vote3"
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:textColor="@color/black"
+            android:text="0"
+            android:textSize="15dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:text="4등"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:textColor="@color/black"
+            android:text="득표 수 : "
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/vote4"
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:textColor="@color/black"
+            android:text="0"
+            android:textSize="15dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:textColor="@color/black"
+            android:text="5등"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:text="득표 수 :"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/vote5"
+            android:layout_gravity="center_vertical"
+            android:height="30dp"
+            android:textColor="@color/black"
+            android:text="0"
+            android:textSize="15dp" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_span="4"
+            android:background="@drawable/button"
+            android:layout_marginTop="20dp"
+            android:text="돌아가기" />
+    </TableRow>
+
+
+</TableLayout>

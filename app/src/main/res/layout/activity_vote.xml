@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    tools:context=".activity.VoteActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="6월 베스트 코디 투표"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@drawable/monthly_cody_text_color"
+        android:paddingTop="15dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/resultbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="투표 결과" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyceler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F3F5"
+        android:paddingTop="20dp"
+        android:orientation="vertical" />
+
+
+</LinearLayout>

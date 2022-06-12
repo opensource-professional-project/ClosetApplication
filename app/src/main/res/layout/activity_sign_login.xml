@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F3F5"
+    tools:context=".SignLogin">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginLeft="55dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="55dp"
+        android:background="@drawable/button_color2"
+        tools:layout_editor_absoluteY="265dp">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="133dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:paddingTop="40dp"
+                android:text="로그인이 필요해요 😀"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="closet 로그인하고 자유롭게 이용해보세요!\n 수많명의 패피들이 기다리고 있습니다🔥"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:orientation="horizontal"
+            android:background="@drawable/button_color3"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/toSign"
+                android:layout_width="140dp"
+                android:layout_height="67dp"
+                android:layout_marginBottom="7dp"
+                android:text="회원가입"
+                app:layout_constraintBottom_toTopOf="@+id/toLogin"
+                android:background="@drawable/button_color3"
+                android:layout_marginRight="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <Button
+                android:id="@+id/toLogin"
+                android:layout_width="140dp"
+                android:layout_height="67dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:text="로그인"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/toSign"
+                app:layout_constraintTop_toBottomOf="@+id/toSign" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

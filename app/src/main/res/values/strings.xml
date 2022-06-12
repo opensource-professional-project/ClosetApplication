@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">closet_project</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <string name="please_grant_permission">권한을 허용해 주세요.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cody">cody</string>
+
+
+    <string-array name="title_name">
+        <item>나이키 NSW 클럽 맨투맨 BV2663–063</item>
+        <item>NSW 클럽 조거팬츠 BV2671–063(나이키)</item>
+        <item>나이키 조던 미드 그레이</item>
+        <item>22 SS 발렌시아가 로고 엠브로이더리 자수 베이스볼캡</item>
+        <item>애플워치 시리즈6 44mm 실버 알루미늄</item>
+        <item>와릿이즌 맨투맨 BLACK</item>
+        <item>컨셉원 테이퍼드 슬랙스 117902 그레이텍스쳐 네이비</item>
+        <item>뉴발란스 992</item>
+        <item>칼하트 a18-BLK</item>
+        <item>Tissot 씨스타 1000 크로노그래프</item>
+        <item>자바나스 익스트림 맨투맨 10-그레이 스노우</item>
+        <item>컷오프 패널드 데님 팬츠(라이트블루)</item>
+        <item>조던 하이 OG 디올</item>
+        <item>아디다스 베이스볼 코튼</item>
+        <item>세이코 SNAF03J</item>
+        <item>리 빅 트위치 루즈핏 크루넥 블랙</item>
+        <item>팀 클럽 스우시 반바지(나이키)</item>
+        <item>조던1 로우 코트 퍼플</item>
+        <item>mlb 뉴욕양키스</item>
+        <item>[마르지엘라]22SS SM1UQ0050 넘버링 빈티지 실버 반지</item>
+        <item>NSW HBR NCPS 바람막이 자켓 DV0531–086</item>
+        <item>뉴발란스 574"</item>
+
+    </string-array>
+
+    <string-array name="price_name">
+        <item>50$</item>
+        <item>12$</item>
+        <item>100$</item>
+        <item>20$</item>
+        <item>70$</item>
+        <item>10$</item>
+        <item>15$</item>
+        <item>19$</item>
+        <item>21$</item>
+        <item>32$</item>
+        <item>16$</item>
+        <item>134$</item>
+        <item>400$</item>
+        <item>1000$</item>
+        <item>15$</item>
+        <item>130$</item>
+        <item>12$</item>
+        <item>110$</item>
+        <item>50$</item>
+        <item>80$</item>
+        <item>90$</item>
+        <item>100$</item>
+
+    </string-array>
+
+</resources>
