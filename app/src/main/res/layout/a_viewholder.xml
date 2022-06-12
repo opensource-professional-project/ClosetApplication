@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 이달의 코디 스크롤뷰-->
+    <ScrollView
+        android:id="@+id/week_cody_Scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="502dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#F1F3F5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pretendard_bold"
+                android:paddingTop="30dp"
+                android:text="HOT NOW"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="38dp" />
+
+
+
+            <TextView
+                android:id="@+id/more"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:paddingRight="70dp"
+                android:paddingBottom="10dp"
+                android:text="+ 더보기"
+                android:textAlignment="textEnd"
+                android:textSize="10dp" />
+
+
+            <!-- 1등 코디-->
+            <LinearLayout
+                android:id="@+id/first_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/first_week_cody_image"
+                    android:layout_width="195dp"
+                    android:layout_height="188dp"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:src="@drawable/picture1"/>
+
+                <Button
+                    android:id="@+id/first_week_cody_btn"
+                    android:layout_width="195dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="38dp"
+                    android:height="0dp"
+                    android:text="민선홍\n188cm/65kg\n경기도 용인시 처인구"
+                    android:gravity="left"
+                    android:minWidth="0dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <!-- 2등 코디-->
+
+            <LinearLayout
+                android:id="@+id/second_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:id="@+id/second_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="정세연\n185cm/70kg\n경기도 이천시 안흥동"
+                    android:textSize="15dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/second_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:src="@drawable/picture2"/>
+            </LinearLayout>
+
+            <!-- 3등 코디-->
+
+            <LinearLayout
+                android:id="@+id/third_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/third_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="이연규\n188cm/60kg\n 충청북도 청주시 서원구"
+                    android:textSize="15dp" />
+
+
+                <ImageButton
+                    android:id="@+id/third_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:src="@drawable/picture3"/>
+            </LinearLayout>
+
+            <!-- 4등 코디-->
+
+            <LinearLayout
+                android:id="@+id/fourth_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/fourth_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="권순규\n184cm/62kg\n충청북도 청주시 흥덕구"
+                    android:textSize="15dp" />
+
+                <ImageButton
+                    android:id="@+id/fourth_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:src="@drawable/picture4"/>
+            </LinearLayout>
+
+            <!-- 5등 코디-->
+
+            <LinearLayout
+                android:id="@+id/fifth_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/fifth_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="조민수\n178cm/58kg\n 서울특별시 동대문구"
+                    android:textSize="15dp" />
+
+                <ImageButton
+                    android:id="@+id/fifth_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:src="@drawable/picture5"/>
+            </LinearLayout>
+
+            <!-- 6등 코디-->
+
+            <LinearLayout
+                android:id="@+id/sixth_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/sixth_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="김광모\n190cm/85kg\n서울특별시 강동구"
+                    android:textSize="15dp" />
+
+                <ImageButton
+                    android:id="@+id/sixth_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:src="@drawable/picture6"/>
+            </LinearLayout>
+
+            <!-- 7등 코디-->
+
+            <LinearLayout
+                android:id="@+id/seventh_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/seventh_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="이연규\n188cm/60kg\n 충청북도 청주시 서원구"
+                    android:textSize="15dp" />
+
+                <ImageButton
+                    android:id="@+id/seventh_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:src="@drawable/picture7"/>
+            </LinearLayout>
+
+            <!-- 8등 코디-->
+
+            <LinearLayout
+                android:id="@+id/eighth_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/eighth_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="서종원\n188cm/75kg\n충청북도 예산군"
+                    android:textSize="15dp" />
+
+                <ImageButton
+                    android:id="@+id/eighth_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:src="@drawable/picture8"/>
+            </LinearLayout>
+
+            <!-- 9등 코디-->
+
+            <LinearLayout
+                android:id="@+id/nineth_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:background="@color/black"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="여기두"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/nineth_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp" />
+            </LinearLayout>
+
+            <!-- 10등 코디-->
+
+            <LinearLayout
+                android:id="@+id/ten_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/ten_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:background="@color/black"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="여기두"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/ten_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp" />
+            </LinearLayout>
+
+            <!-- 11등 코디-->
+
+            <LinearLayout
+                android:id="@+id/eleven_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/eleven_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:background="@color/black"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="여기두"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/eleven_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp" />
+            </LinearLayout>
+
+            <!-- 12등 코디-->
+
+            <LinearLayout
+                android:id="@+id/twelve_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/twelve_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:background="@color/black"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="여기두"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/twelve_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp" />
+            </LinearLayout>
+
+            <!-- 13등 코디-->
+
+            <LinearLayout
+                android:id="@+id/thirteen_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/thirteen_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:background="@color/black"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="여기두"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/thirteen_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp" />
+            </LinearLayout>
+
+            <!-- 14등 코디-->
+
+            <LinearLayout
+                android:id="@+id/fourteen_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/fourteen_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:background="@color/black"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="여기두"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/fourteen_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp" />
+            </LinearLayout>
+
+            <!-- 15등 코디-->
+
+            <LinearLayout
+                android:id="@+id/fifteen_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/fifteen_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:background="@color/black"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="여기두"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/fifteen_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp" />
+            </LinearLayout>
+
+            <!-- 16등 코디-->
+
+            <LinearLayout
+                android:id="@+id/sixteen_week_cody_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/sixteen_week_cody_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:height="0dp"
+                    android:background="@color/black"
+                    android:gravity="right"
+                    android:minWidth="0dp"
+                    android:text="여기두"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/sixteen_week_cody_image"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/black"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
